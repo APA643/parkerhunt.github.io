@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firstname Lastname - Academic Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+        .section-title { border-bottom: 2px solid #0d6efd; padding-bottom: 5px; margin-bottom: 20px; color: #2c3e50; }
+        .resume-section { background: white; padding: 30px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        header { background-color: #2c3e50; color: white; padding: 60px 0; }
+        header a { color: #82c0cc; text-decoration: none; }
+        header a:hover { color: #ffffff; text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="text-center mb-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Firstname Lastname, Ph.D.</h1>
+            <p class="lead">Researcher | Specialized in [Your Field / Domain]</p>
+            <div class="d-flex justify-content-center gap-4 mt-4">
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> email@example.com</a>
+                <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            
+            <!-- Left Column: Main Content -->
+            <div class="col-lg-8">
+                
+                <!-- About / Research Summary -->
+                <section class="resume-section" id="about">
+                    <h3 class="section-title"><i class="fas fa-user-circle me-2"></i>Research Profile</h3>
+                    <p>
+                        Highly motivated Ph.D. graduate with expertise in [Your primary field]. My research focuses on [Key research topic 1], [Key research topic 2], and [Key research topic 3]. I am seeking a post-doctoral fellowship where I can leverage my background in [Methodology/Skill] to contribute to innovative projects in [Target area of future lab].
+                    </p>
+                </section>
+
+                <!-- Research Experience -->
+                <section class="resume-section" id="experience">
+                    <h3 class="section-title"><i class="fas fa-flask me-2"></i>Research Experience</h3>
+                    
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="fw-bold mb-0">Graduate Research Assistant</h5>
+                            <span class="text-muted">Aug 2021 &ndash; Present</span>
+                        </div>
+                        <p class="text-primary mb-2">University Name &ndash; Department Name | Advisor: Dr. Firstname Lastname</p>
+                        <ul>
+                            <li>Designed and executed independent experiments focusing on [Specific project focus].</li>
+                            <li>Developed a novel methodology for [Technique/Process], resulting in a 20% increase in efficiency.</li>
+                            <li>Mentored 3 undergraduate researchers in laboratory techniques and data analysis.</li>
+                            <li>Secured $X,XXX in departmental grant funding for experimental equipment.</li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <!-- Publications -->
+                <section class="resume-section" id="publications">
+                    <h3 class="section-title"><i class="fas fa-book me-2"></i>Selected Publications</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <strong>Lastname, F.</strong>, Co-author, A., & Advisor, B. (2025). "Title of your highly relevant and impactful journal article." <em>Journal of Prominent Research</em>, 45(2), 112-128. 
+                            <a href="#" class="text-decoration-none">[DOI/Link]</a>
+                        </li>
+                        <li class="mb-3">
+                            Co-author, C., <strong>Lastname, F.</strong>, & Advisor, B. (2024). "Another paper where you contributed significantly to the methodology." <em>International Journal of Science</em>, 12(4), 450-465.
+                            <a href="#" class="text-decoration-none">[DOI/Link]</a>
+                        </li>
+                    </ul>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Sidebar -->
+            <div class="col-lg-4">
+                
+                <!-- Education -->
+                <section class="resume-section" id="education">
+                    <h3 class="section-title"><i class="fas fa-university me-2"></i>Education</h3>
+                    
+                    <div class="mb-3">
+                        <h6 class="fw-bold mb-0">Ph.D. in [Your Field]</h6>
+                        <div class="text-muted small">University Name</div>
+                        <div class="text-muted small">Expected May 2026</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <h6 class="fw-bold mb-0">B.S. in [Your Field]</h6>
+                        <div class="text-muted small">Undergraduate University</div>
+                        <div class="text-muted small">May 2020</div>
+                    </div>
+                </section>
+
+                <!-- Technical Skills -->
+                <section class="resume-section" id="skills">
+                    <h3 class="section-title"><i class="fas fa-tools me-2"></i>Technical Skills</h3>
+                    <div class="mb-3">
+                        <h6 class="fw-bold">Laboratory/Wet Lab</h6>
+                        <span class="badge bg-secondary">PCR</span>
+                        <span class="badge bg-secondary">Cell Culture</span>
+                        <span class="badge bg-secondary">Mass Spectrometry</span>
+                        <span class="badge bg-secondary">Microscopy</span>
+                    </div>
+                    <div class="mb-3">
+                        <h6 class="fw-bold">Computational/Software</h6>
+                        <span class="badge bg-secondary">Python</span>
+                        <span class="badge bg-secondary">R</span>
+                        <span class="badge bg-secondary">MATLAB</span>
+                        <span class="badge bg-secondary">LaTeX</span>
+                    </div>
+                </section>
+
+                <!-- References -->
+                <section class="resume-section" id="references">
+                    <h3 class="section-title"><i class="fas fa-users me-2"></i>References</h3>
+                    <p class="small text-muted mb-0">Available upon request, or list your PI's contact info directly if preferred.</p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
